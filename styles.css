@@ -1,0 +1,92 @@
+*{
+    padding: 0%;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "poppins", sans-serif;
+}
+
+body{
+    background-image: url(assets/space.jpg);
+}
+
+
+
+
+header{
+    padding: 20px;
+    height: 130px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+main{
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+main h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom:40px;
+}
+
+.logo{
+    width: 110px;
+}
+
+.nav-container{
+    margin-right: 30px;
+
+}
+
+
+
+.nav-container ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-container li {
+    font-size: 20px;
+    color: white;
+    margin-left: 35px;
+}
+
+.contents{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.contents div{
+    position: relative;
+    margin-bottom: 15px;
+    height: 322px;
+    width:470px;
+    color: white;
+    background-color: rgb(5, 42, 84);
+}
+
+.contents div h2{
+    display: flex;
+    justify-content: center;
+    position: relative; bottom:5px;
+}
+
+
+.contents img{
+width: 470px;
+}
+.contents div:hover{
+    background-color: black;
+}
+
+
+
+
+
